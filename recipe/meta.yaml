@@ -1,5 +1,5 @@
 {% set name = "faststream" %}
-{% set version = "0.5.42" %}
+{% set version = "0.5.43" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/faststream-{{ version }}.tar.gz
-  sha256: 7f115dc4c9eb53a76a5ee1194191179f8161ed678ad0cb744ace2743bfd5002e
+  sha256: 2ab8a55d7253adda81782ce67210cd1250052af5470dadc9acb45617a2ea5892
 
 build:
   entry_points:
