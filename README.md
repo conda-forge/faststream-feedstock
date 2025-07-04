@@ -3,13 +3,13 @@ About faststream-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/faststream-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/airtai/FastStream
+Home: https://github.com/ag2ai/faststream
 
 Package license: Apache-2.0
 
 Summary: FastStream: the simplest way to work with a messaging queues
 
-Development: https://github.com/airtai/FastStream
+Development: https://github.com/ag2ai/faststream
 
 Documentation: https://faststream.airt.ai/latest/
 
