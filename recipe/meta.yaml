@@ -1,5 +1,5 @@
 {% set name = "faststream" %}
-{% set version = "0.5.48" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/faststream-{{ version }}.tar.gz
-  sha256: b7082552e626afd832410752da5d26714f893148fd9f3d2ce431117b3ba5cdb1
+  sha256: dbb6cd2f9cdb89aabba1eabd7174e4d7e13c96b7ac71dd7b1906500fb658c3e7
 
 build:
   entry_points:
@@ -24,8 +24,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - typing_extensions >=4.8.0
-    - anyio >=3.7.1,<5
-    - fast-depends >=2.4.0b0,<3.0.0
+    - anyio >=4.0,<5
+    - fast-depends >=3.0.0
     - typer >=0.9,!=0.12,<=0.16.0
     - watchfiles >=0.15.0,<1.1.0
 
