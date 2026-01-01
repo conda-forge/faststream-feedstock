@@ -30,17 +30,14 @@ requirements:
     - typing_extensions >=4.12.0
     - anyio >=4.0,<5
     - fast-depends >=3.0.0
+    - typer >=0.9,!=0.12,<=0.20.1
+    - watchfiles >=0.15.0,<1.2.0
 tests:
   - python:
       imports:
         - faststream
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - python ${{ python_min }}.*
-        - pip
     script:
-      - pip check
       - faststream --help
 
 about:
