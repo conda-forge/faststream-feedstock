@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: faststream
-  version: "0.6.6"
+  version: "0.6.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/faststream-${{ version }}.tar.gz
-  sha256: de87502e22db0372131165221728c6993b29d42ba29aaaa0a27d1249803f2ddd
+  sha256: c732eaf861c4cbddd9c7f9098608486a9f05dff67a72335686c3044039045346
 
 build:
   number: 0
