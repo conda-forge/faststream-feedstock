@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: faststream
-  version: "0.7.6"
+  version: "0.7.7"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/a7/3b/f322016151614c9de6df319b40d6a5f6cfda46d1860bad2e867502833fd5/faststream-${{ version }}.tar.gz
-  sha256: b0c60ac8cde24ade040cbca4642c14edbd1a220abab985dbe6caf91b1cc61fcb
+  url: https://files.pythonhosted.org/packages/6f/73/d07717b874cdc039b15e6f44b8629d8b00b7abc150167bf8f30132a17d82/faststream-${{ version }}.tar.gz
+  sha256: dfba491c665f1b962f7c1262496201340bec8711f7d19a786f13cb1e9e2a5bdd
 
 build:
   number: 0
